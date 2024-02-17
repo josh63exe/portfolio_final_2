@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Raffaele Vitale',
     description: 'Raffaele Vitale website.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png',
+    image: 'public/images/RV.png',
   }
 
   return (

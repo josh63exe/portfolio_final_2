@@ -8,20 +8,44 @@ date: 2023-11-29
 
 Here's some of my photography.
 
-import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 
 <Carousel infinityLoop autoPlay interval="2000">
   <div>
-    <Image src="/images/photo.jpg" alt="Photo" width={1279} height={832} quality={65} priority className="next-image" />
+    <Image
+      src="/images/photo.jpg"
+      alt="Photo"
+      width={1279}
+      height={832}
+      quality={65}
+      priority
+      className="next-image"
+    />
     <p className="legend">Macbook Air M2</p>
   </div>
   <div>
-  <Image src="/images/photo_3.jpg" alt="Photo" width={1279} height={832} quality={65} priority className="next-image" />
+    <Image
+      src="/images/photo_3.jpg"
+      alt="Photo"
+      width={1279}
+      height={832}
+      quality={65}
+      priority
+      className="next-image"
+    />
     <p className="legend">Street Venezia</p>
   </div>
   <div>
-  <Image src="/images/photo4.jpg" alt="Photo" width={1279} height={832} quality={65} priority className="next-image" />
+    <Image
+      src="/images/photo4.jpg"
+      alt="Photo"
+      width={1279}
+      height={832}
+      quality={65}
+      priority
+      className="next-image"
+    />
     <p className="legend">Anker Magsafe Charger</p>
   </div>
 </Carousel>
