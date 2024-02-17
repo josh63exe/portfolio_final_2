@@ -8,7 +8,12 @@ export default {
     <footer>
       <small>
         <time>{YEAR}</time> © Raffaele Vitale.
-        <a>RV</a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&to=raffa.vitale26@gmail.com"
+          target="_blank"
+        >
+          MAIL
+        </a>
       </small>
       <style jsx>{`
         footer {
@@ -22,7 +27,6 @@ export default {
   ),
 };
 
-// Aggiungere un page loader alle immagini
 export const PageLoader = () => {
   return (
     <div>
