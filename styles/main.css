@@ -66,3 +66,9 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.carousel {
+  width: 655px;
+  height: 437px;
+  align-items: center;
+}

@@ -6,12 +6,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@gsap/react": "^2.0.2",
     "gatsby": "^5.12.11",
     "gatsby-plugin-image": "^3.12.3",
     "gatsby-plugin-mdx": "^5.12.3",
     "gatsby-plugin-sharp": "^5.12.3",
     "gatsby-transformer-sharp": "^5.12.3",
     "gray-matter": "^4.0.3",
+    "gsap": "^3.12.4",
     "next": "latest",
     "nextra": "^2.0.0-beta.5",
     "nextra-theme-blog": "^2.0.0-beta.5",
